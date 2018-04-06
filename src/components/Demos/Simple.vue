@@ -3,12 +3,14 @@
       <h1 class="demo-title">Simple</h1>
     <VueSlideBar v-model="value" class="demo-demo"/>
     <h2>Value: {{ value }}</h2>
-    <button type="button" name="button" @click="value++">
+    <div class="btn-group">
+      <button type="button" name="button" class="btn" @click="value++">
         +
-    </button>
-    <button type="button" name="button" @click="value--">
+      </button>
+      <button type="button" name="button" class="btn" @click="value--">
         -
-    </button>
+      </button>
+    </div>
   </div>
 </template>
 
@@ -29,5 +31,8 @@ export default {
 </script>
 
 <style scoped>
-  @import './../../assets/demo.css';
+  /* @import './../../assets/demo.css'; */
+  .btn {
+    padding: 0 1em;
+  }
 </style>

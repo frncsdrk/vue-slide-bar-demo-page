@@ -8,7 +8,7 @@
       :isDisabled="true"
       class="demo-demo"/>
     <br>
-    <button type="button" name="button" @click="startLoad()">
+    <button type="button" name="button" class="btn btn-primary" @click="startLoad()">
       Click to start load
     </button>
     <h2>Loading: {{loading}}%</h2>

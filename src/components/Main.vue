@@ -1,14 +1,16 @@
 <template>
   <div>
       <Navbar/>
-      <DemoSimple/>
-      <hr>
-      <DemoWithLabel/>
-      <hr>
-      <DemoCustomStyleMinMax/>
-      <hr>
-      <DemoLoading/>
-      <hr>
+      <div class="container">
+          <DemoSimple/>
+          <hr>
+          <DemoWithLabel/>
+          <hr>
+          <DemoCustomStyleMinMax/>
+          <hr>
+          <DemoLoading/>
+          <hr>
+      </div>
   </div>
 </template>
 

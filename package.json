@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
+    "spectre.css": "^0.5.1",
     "vue": "^2.5.13",
     "vue-slide-bar": "^1.0.7"
   },
