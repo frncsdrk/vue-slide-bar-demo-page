@@ -1,6 +1,6 @@
 <template>
   <div class="demo-container">
-    <h1 class="demo-title">With Label</h1>
+    <h2 class="demo-title">With Label</h2>
     <VueSlideBar
       v-model="slider.value"
       :data="slider.data"
@@ -13,8 +13,8 @@
       <img src="images/rectangle-slider.svg">
     </template>
   </VueSlideBar>
-  <h2>Value: {{slider.value}}</h2>
-  <h2>Label: {{rangeValue.label}}</h2>
+  <h4>Value: {{slider.value}}</h4>
+  <h4>Label: {{rangeValue.label}}</h4>
   </div>
 </template>
 

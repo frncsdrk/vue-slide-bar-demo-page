@@ -1,8 +1,8 @@
 <template>
   <div class="demo-container">
-      <h1 class="demo-title">Simple</h1>
+    <h2 class="demo-title">Simple</h2>
     <VueSlideBar v-model="value" class="demo-demo"/>
-    <h2>Value: {{ value }}</h2>
+    <h4>Value: {{ value }}</h4>
     <div class="btn-group">
       <button type="button" name="button" class="btn" @click="value++">
         +

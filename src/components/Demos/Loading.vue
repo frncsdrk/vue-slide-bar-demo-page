@@ -1,6 +1,6 @@
 <template>
   <div class="demo-container">
-    <h1 class="demo-title">Loading</h1>
+    <h2 class="demo-title">Loading</h2>
     <VueSlideBar
       v-model="loading"
       :showTooltip="false"
@@ -11,7 +11,7 @@
     <button type="button" name="button" class="btn btn-primary" @click="startLoad()">
       Click to start load
     </button>
-    <h2>Loading: {{loading}}%</h2>
+    <h4>Loading: {{loading}}%</h4>
   </div>
 </template>
 

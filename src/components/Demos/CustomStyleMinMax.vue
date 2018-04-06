@@ -1,6 +1,6 @@
 <template>
   <div class="demo-container">
-    <h1 class="demo-title">Custom Style & Min-Max</h1>
+    <h2 class="demo-title">Custom Style & Min-Max</h2>
     <VueSlideBar
       v-model="value"
       :min="1"
@@ -10,7 +10,7 @@
       :tooltipStyles="{ backgroundColor: 'red', borderColor: 'red' }"
       class="demo-demo">
     </VueSlideBar>
-    <h2>Value: {{value}}</h2>
+    <h4>Value: {{value}}</h4>
   </div>
 </template>
 

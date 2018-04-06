@@ -20,32 +20,6 @@ export default {
 <style scoped>
   .navbar {
     padding: 1em 2em;
-    box-shadow: 1px 1px 3px 0px #000;
+    background: #fff;
   }
-  /*
-.navbar {
-  width: 100%;
-  padding: 15px 0;
-  background: #eee;
-  position: fixed;
-  top: 0;
-  z-index: 99;
-}
-.navbar > section {
-    padding: 0 20px;
-}
-.navbar a {
-    text-decoration: none;
-}
-.navbar a:hover {
-    color: #fff;
-}
-.navbar a:visited {
-    color: #000;
-}
-.navbar-brand {
-    font-size: 20px;
-    font-weight: bold;
-}
-*/
 </style>

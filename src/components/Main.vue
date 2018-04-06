@@ -1,16 +1,13 @@
 <template>
-  <div>
-      <Navbar/>
-      <div class="container">
-          <DemoSimple/>
-          <hr>
-          <DemoWithLabel/>
-          <hr>
-          <DemoCustomStyleMinMax/>
-          <hr>
-          <DemoLoading/>
-          <hr>
-      </div>
+  <div class="main-container">
+    <Navbar/>
+    <div class="container">
+      <DemoSimple/>
+      <DemoWithLabel/>
+      <DemoCustomStyleMinMax/>
+      <DemoLoading/>
+    </div>
+    <Footer/>
   </div>
 </template>
 
@@ -20,11 +17,13 @@ import DemoSimple from './Demos/Simple'
 import DemoWithLabel from './Demos/WithLabel'
 import DemoCustomStyleMinMax from './Demos/CustomStyleMinMax'
 import DemoLoading from './Demos/Loading'
+import Footer from './Footer'
 
 export default {
   name: 'Main',
   components: {
     Navbar,
+    Footer,
     DemoSimple,
     DemoWithLabel,
     DemoCustomStyleMinMax,
@@ -34,6 +33,9 @@ export default {
 </script>
 
 <style scoped>
+  .main-container {
+    background: #eee;
+  }
 hr {
   /* src: https://www.css-tricks.com/examples/hrs/ */
   height: 0;
