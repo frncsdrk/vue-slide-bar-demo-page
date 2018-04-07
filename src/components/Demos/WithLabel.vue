@@ -5,7 +5,7 @@
       v-model="slider.value"
       :data="slider.data"
       :range="slider.range"
-      :labelStyles="{ color: '#00ff55', backgroundColor: '#4a4a4a' }"
+      :labelStyles="{ color: '#1066FD', backgroundColor: '#4a4a4a' }"
       :processStyle="{ backgroundColor: '#d8d8d8' }"
       @callbackRange="callbackRange"
       class="demo-demo">
