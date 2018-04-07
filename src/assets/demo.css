@@ -1,16 +1,20 @@
 .demo-container {
   margin: 2em;
-  padding: 3em 2em 2em 2em;
   text-align: center;
-  background: #fff;
+  background: #f0f1f4;
   border-radius: 5px;
 }
 .demo-title {
-  /*
-  color: #000;
-  font-size: 30px;
-  */
+  width: 100%;
+  padding: 0.75em 0 0.75em 0;
   font-weight: bold;
+  background: #fff;
+  border-radius: 5px;
 }
-.demo-demo {}
+.demo-demo {
+  padding: 2em;
+}
+.demo-body {
+  padding: 0.5em 0 2em 0;
+}
 .demo-code {}

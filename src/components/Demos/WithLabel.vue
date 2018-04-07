@@ -12,9 +12,11 @@
     <template slot="tooltip" slot-scope="tooltip">
       <img src="images/rectangle-slider.svg">
     </template>
-  </VueSlideBar>
-  <h4>Value: {{slider.value}}</h4>
-  <h4>Label: {{rangeValue.label}}</h4>
+    </VueSlideBar>
+    <div class="demo-body">
+      <h4>Value: {{slider.value}}</h4>
+      <h4>Label: {{rangeValue.label}}</h4>
+    </div>
   </div>
 </template>
 

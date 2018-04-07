@@ -5,7 +5,7 @@
         <div class="column col-sm-12 col-md-6 col-lg-2">
           <ul class="menu footer-menu">
             <li>
-              <a href="https://github.com/biigpongsatorn/vue-slide-bar">GitHub</a>
+              <a href="https://github.com/biigpongsatorn/vue-slide-bar">vue-slide-bar</a> is maintained by <a href="https://github.com/biigpongsatorn">@biigpongsatorn</a>
             </li>
             <li>
               <a href="https://github.com/frncsdrk/vue-slide-bar-demo-page">Edit this page</a>

@@ -2,14 +2,16 @@
   <div class="demo-container">
     <h2 class="demo-title">Simple</h2>
     <VueSlideBar v-model="value" class="demo-demo"/>
-    <h4>Value: {{ value }}</h4>
-    <div class="btn-group">
-      <button type="button" name="button" class="btn" @click="value++">
-        +
-      </button>
-      <button type="button" name="button" class="btn" @click="value--">
-        -
-      </button>
+    <div class="demo-body">
+      <h4>Value: {{ value }}</h4>
+      <div class="btn-group">
+        <button type="button" name="button" class="btn" @click="value++">
+          +
+        </button>
+        <button type="button" name="button" class="btn" @click="value--">
+          -
+        </button>
+      </div>
     </div>
   </div>
 </template>

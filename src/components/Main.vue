@@ -34,14 +34,6 @@ export default {
 
 <style scoped>
   .main-container {
-    background: #eee;
+    background: #ddd;
   }
-hr {
-  /* src: https://www.css-tricks.com/examples/hrs/ */
-  height: 0;
-  margin: 0 2em;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
 </style>

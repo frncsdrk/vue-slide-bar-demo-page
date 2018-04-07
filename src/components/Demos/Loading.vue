@@ -8,10 +8,12 @@
       :isDisabled="true"
       class="demo-demo"/>
     <br>
-    <button type="button" name="button" class="btn btn-primary" @click="startLoad()">
-      Click to start load
-    </button>
-    <h4>Loading: {{loading}}%</h4>
+    <div class="demo-body">
+      <h4>Loading: {{loading}}%</h4>
+      <button type="button" name="button" class="btn btn-primary" @click="startLoad()">
+        Click to start load
+      </button>
+    </div>
   </div>
 </template>
 

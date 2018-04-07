@@ -10,7 +10,9 @@
       :tooltipStyles="{ backgroundColor: 'red', borderColor: 'red' }"
       class="demo-demo">
     </VueSlideBar>
-    <h4>Value: {{value}}</h4>
+    <div class="demo-body">
+      <h4>Value: {{value}}</h4>
+    </div>
   </div>
 </template>
 
