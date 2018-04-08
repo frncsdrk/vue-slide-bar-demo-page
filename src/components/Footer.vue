@@ -24,5 +24,13 @@ export default {
 </script>
 
 <style scoped>
-  @import './../assets/footer.css';
+  .footer-container {
+    width: 100%;
+    padding: 3em 2em;
+    background: #eee;
+  }
+  .footer-menu {
+    background: transparent;
+    box-shadow: none;
+  }
 </style>

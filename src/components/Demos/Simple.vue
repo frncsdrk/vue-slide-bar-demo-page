@@ -5,11 +5,11 @@
     <div class="demo-body">
       <h4>Value: {{ value }}</h4>
       <div class="btn-group">
-        <button type="button" name="button" class="btn" @click="value++">
-          +
-        </button>
         <button type="button" name="button" class="btn" @click="value--">
           -
+        </button>
+        <button type="button" name="button" class="btn" @click="value++">
+          +
         </button>
       </div>
     </div>
@@ -35,6 +35,7 @@ export default {
 <style scoped>
   /* @import './../../assets/demo.css'; */
   .btn {
-    padding: 0 1em;
+    padding: 0 2em;
+    font-size: 24px;
   }
 </style>

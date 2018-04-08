@@ -11,7 +11,7 @@
     <div class="demo-body">
       <h4>Loading: {{loading}}%</h4>
       <button type="button" name="button" class="btn btn-primary" @click="startLoad()">
-        Click to start load
+        Click to start loading
       </button>
     </div>
   </div>
