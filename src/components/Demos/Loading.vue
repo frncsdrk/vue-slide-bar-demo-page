@@ -33,10 +33,11 @@ export default {
   },
   methods: {
     startLoad () {
+      this.loader && clearInterval(this.loader)
+      this.loading = 0
       this.loader = setInterval(() => {
         this.loading++
         if (this.loading === 100) {
-          console.log('clear', this.loading)
           clearInterval(this.loader)
         }
       }, 100)
