@@ -10,6 +10,7 @@
     <div class="demo-code">
       <button class="btn show-code-btn" @click="showCode = !showCode">
         {{ showCode ? 'Hide' : 'Show' }} Code
+        <i :class="'icon ' + (showCode ? 'icon-arrow-up' : 'icon-arrow-down')"></i>
       </button>
       <transition name="fade">
         <div v-if="showCode" class="columns">

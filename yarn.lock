@@ -2197,10 +2197,6 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.41:
   version "1.3.42"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.42.tgz#95c33bf01d0cc405556aec899fe61fd4d76ea0f9"
 
-elevator.js@^1.0.0:
-  version "1.0.1"
-  resolved "http://npm.addefend.com/elevator.js/-/elevator.js-1.0.1.tgz#97ebb45db5093cbadeb0a307bb40cc8264673d8c"
-
 elliptic@^6.0.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.0.tgz#cac9af8762c85836187003c8dfe193e5e2eae5df"
@@ -6435,12 +6431,6 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
-
-vue-elevator@^1.1.4:
-  version "1.1.4"
-  resolved "http://npm.addefend.com/vue-elevator/-/vue-elevator-1.1.4.tgz#8ac960a476c225fe8fb403fa69f6a7724adb53bc"
-  dependencies:
-    elevator.js "^1.0.0"
 
 vue-eslint-parser@^2.0.3:
   version "2.0.3"

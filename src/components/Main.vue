@@ -6,14 +6,12 @@
       <DemoWithLabel/>
       <DemoCustomStyleMinMax/>
       <DemoLoading/>
-      <VueElevator class="elevator" :word="''" :duration="1000"/>
     </div>
     <Footer/>
   </div>
 </template>
 
 <script>
-import { VueElevator } from 'vue-elevator'
 import Navbar from './Navbar'
 import DemoSimple from './Demos/Simple'
 import DemoWithLabel from './Demos/WithLabel'
@@ -24,7 +22,6 @@ import Footer from './Footer'
 export default {
   name: 'Main',
   components: {
-    VueElevator,
     Navbar,
     Footer,
     DemoSimple,
