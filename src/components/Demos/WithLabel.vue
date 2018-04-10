@@ -1,48 +1,35 @@
 <template>
-  <div class="demo-container">
-    <h2 class="demo-title">With Label</h2>
+  <demo-base title="With Label" :template-code="demoTemplateCode" :script-code="demoScriptCode">
     <VueSlideBar
-      v-model="slider.value"
-      :data="slider.data"
-      :range="slider.range"
-      :labelStyles="{ color: '#1066FD', backgroundColor: '#4a4a4a' }"
-      :processStyle="{ backgroundColor: '#d8d8d8' }"
-      @callbackRange="callbackRange"
-      class="demo-demo">
-    <template slot="tooltip" slot-scope="tooltip">
-      <img src="images/rectangle-slider.svg">
-    </template>
+        slot="demo"
+        v-model="slider.value"
+        :data="slider.data"
+        :range="slider.range"
+        :labelStyles="{ color: '#1066FD', backgroundColor: '#4a4a4a' }"
+        :processStyle="{ backgroundColor: '#d8d8d8' }"
+        @callbackRange="callbackRange">
+      <template slot="tooltip" slot-scope="tooltip">
+        <img src="images/rectangle-slider.svg">
+      </template>
     </VueSlideBar>
-    <div class="demo-body">
+    <div slot="body">
       <h4>Value: {{slider.value}}</h4>
       <h4>Label: {{rangeValue.label}}</h4>
     </div>
-    <div class="demo-code columns">
-      <div class="column col-6 col-md-12">
-        <h5>template</h5>
-        <Prism language="html">
-          {{ demoTemplateCode }}
-        </Prism>
-      </div>
-      <div class="column col-6 col-md-12">
-        <h5>script</h5>
-        <Prism language="javascript">
-          {{ demoScriptCode }}
-        </Prism>
-      </div>
-    </div>
-  </div>
+  </demo-base>
 </template>
 
 <script>
 import VueSlideBar from 'vue-slide-bar'
 import Prism from 'vue-prism-component'
+import DemoBase from './Base'
 
 export default {
   name: 'WithLabel',
   components: {
     VueSlideBar,
-    Prism
+    Prism,
+    DemoBase
   },
   data () {
     return {
@@ -171,6 +158,4 @@ export default {
 }
 </script>
 
-<style scoped>
-  @import './../../assets/demo.css';
-</style>
+<style scoped></style>

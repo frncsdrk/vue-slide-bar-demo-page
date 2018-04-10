@@ -1,45 +1,31 @@
 <template>
-  <div class="demo-container">
-    <h2 class="demo-title">Loading</h2>
+  <demo-base title="Loading" :template-code="demoTemplateCode" :script-code="demoScriptCode">
     <VueSlideBar
+      slot="demo"
       v-model="loading"
       :showTooltip="false"
       :lineHeight="20"
-      :isDisabled="true"
-      class="demo-demo"/>
-    <br>
-    <div class="demo-body">
+      :isDisabled="true"/>
+    <div slot="body">
       <h4>Loading: {{loading}}%</h4>
       <button type="button" name="button" class="btn btn-primary" @click="startLoad()">
         Click to start loading
       </button>
     </div>
-    <div class="demo-code columns">
-      <div class="column col-6 col-md-12">
-        <h5>template</h5>
-        <Prism language="html">
-          {{ demoTemplateCode }}
-        </Prism>
-      </div>
-      <div class="column col-6 col-md-12">
-        <h5>script</h5>
-        <Prism language="javascript">
-          {{ demoScriptCode }}
-        </Prism>
-      </div>
-    </div>
-  </div>
+  </demo-base>
 </template>
 
 <script>
 import VueSlideBar from 'vue-slide-bar'
 import Prism from 'vue-prism-component'
+import DemoBase from './Base'
 
 export default {
   name: 'DemoLoading',
   components: {
     VueSlideBar,
-    Prism
+    Prism,
+    DemoBase
   },
   data () {
     return {
@@ -106,6 +92,4 @@ export default {
 }
 </script>
 
-<style scoped>
-  @import './../../assets/demo.css';
-</style>
+<style scoped></style>

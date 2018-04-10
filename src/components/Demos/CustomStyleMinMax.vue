@@ -1,44 +1,31 @@
 <template>
-  <div class="demo-container">
-    <h2 class="demo-title">Custom Style & Min-Max</h2>
+  <demo-base title="Custom Style & Min-Max" :template-code="demoTemplateCode" :script-code="demoScriptCode">
     <VueSlideBar
+      slot="demo"
       v-model="value"
       :min="1"
       :max="10"
       :processStyle="slider.processStyle"
       :lineHeight="slider.lineHeight"
-      :tooltipStyles="{ backgroundColor: 'red', borderColor: 'red' }"
-      class="demo-demo">
+      :tooltipStyles="{ backgroundColor: 'red', borderColor: 'red' }">
     </VueSlideBar>
-    <div class="demo-body">
+    <div slot="body">
       <h4>Value: {{value}}</h4>
     </div>
-    <div class="demo-code columns">
-      <div class="column col-6 col-md-12">
-        <h5>template</h5>
-        <Prism language="html">
-          {{ demoTemplateCode }}
-        </Prism>
-      </div>
-      <div class="column col-6 col-md-12">
-        <h5>script</h5>
-        <Prism language="javascript">
-          {{ demoScriptCode }}
-        </Prism>
-      </div>
-    </div>
-  </div>
+  </demo-base>
 </template>
 
 <script>
 import VueSlideBar from 'vue-slide-bar'
 import Prism from 'vue-prism-component'
+import DemoBase from './Base'
 
 export default {
   name: 'DemoCustomStyleMinMax',
   components: {
     VueSlideBar,
-    Prism
+    Prism,
+    DemoBase
   },
   data () {
     return {
@@ -90,6 +77,4 @@ export default {
 }
 </script>
 
-<style scoped>
-  @import './../../assets/demo.css';
-</style>
+<style scoped></style>
