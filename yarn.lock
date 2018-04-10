@@ -6469,9 +6469,9 @@ vue-prism-component@^1.0.1:
   version "1.0.1"
   resolved "http://npm.addefend.com/vue-prism-component/-/vue-prism-component-1.0.1.tgz#9e4ecb9b2577b598daef453e8b4637a780d118ae"
 
-vue-slide-bar@^1.0.9:
-  version "1.0.9"
-  resolved "http://npm.addefend.com/vue-slide-bar/-/vue-slide-bar-1.0.9.tgz#182f420a7527a2953882ba61d222354bc29d3671"
+vue-slide-bar@^1.1.0:
+  version "1.1.0"
+  resolved "http://npm.addefend.com/vue-slide-bar/-/vue-slide-bar-1.1.0.tgz#a0fbcd97a77fb6e7b8d1f73ec7f2524983c383a3"
   dependencies:
     postcss-import "^11.0.0"
     postcss-url "^7.3.0"
