@@ -1,7 +1,16 @@
 # vue-slide-bar-demo-page
 demo page for vue-slide-bar
 
-### [vue-slide-bar repository](https://github.com/biigpongsatorn/vue-slide-bar)
+## [vue-slide-bar](https://github.com/biigpongsatorn/vue-slide-bar) made by [biigpongsatorn](https://github.com/biigpongsatorn)
+
+## Development
+
+```sh
+yarn
+npm run serve    # start webpack dev server
+npm run build    # build for deployment
+npm run lint     # explicitly lint code
+```
 
 ### Credits
 
