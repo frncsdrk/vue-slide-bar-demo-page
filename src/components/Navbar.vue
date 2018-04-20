@@ -5,7 +5,7 @@
         <a href="#" class="navbar-brand ml-2" target="_blank">vue-slide-bar</a>
       </section>
       <section class="navbar-section">
-        <a href="https://github.com/biigpongsatorn/vue-slide-bar" class="btn btn-link mr-2" target="_blank">Github</a>
+        <a href="https://github.com/biigpongsatorn/vue-slide-bar" class="mr-2" target="_blank">Github</a>
         <a href="https://github.com/frncsdrk/vue-slide-bar-demo-page">Edit this page</a>
       </section>
     </header>
