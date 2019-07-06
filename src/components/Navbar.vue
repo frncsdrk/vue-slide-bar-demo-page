@@ -1,12 +1,12 @@
 <template>
   <div>
-    <header class="navbar">
+    <header class="navbar navbar-fixed">
       <section class="navbar-section">
-        <a href="#" class="navbar-brand ml-2" target="_blank">vue-slide-bar</a>
+        <a href="#" class="navbar-brand text-bold mr-2" target="_blank">vue-slide-bar</a>
       </section>
       <section class="navbar-section">
-        <a href="https://github.com/biigpongsatorn/vue-slide-bar" class="mr-2" target="_blank">Github</a>
-        <a href="https://github.com/frncsdrk/vue-slide-bar-demo-page">Edit this page</a>
+        <a href="https://github.com/biigpongsatorn/vue-slide-bar" class="btn btn-primary mr-2" target="_blank">Github</a>
+        <a href="https://github.com/frncsdrk/vue-slide-bar-demo-page" class="btn">Edit this page</a>
       </section>
     </header>
   </div>
