@@ -1,3 +1,3 @@
 module.exports = {
-  baseUrl: '/vue-slide-bar-demo-page'
+  publicPath: '/vue-slide-bar-demo-page'
 }
