@@ -1,11 +1,12 @@
 {
   "name": "vue-slide-bar-demo-page",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "publish": "./publish.sh",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
     "prismjs": "^1.16.0",
