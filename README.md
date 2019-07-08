@@ -1,4 +1,7 @@
 # vue-slide-bar-demo-page
+
+## WARNING! This page is deprecated. Please use the official [docs](https://biigpongsatorn.github.io/#/vue-slide-bar).
+
 demo page for vue-slide-bar
 
 ## [vue-slide-bar](https://github.com/biigpongsatorn/vue-slide-bar) made by [biigpongsatorn](https://github.com/biigpongsatorn)
@@ -6,7 +9,7 @@ demo page for vue-slide-bar
 ## Development
 
 ```sh
-yarn
+yarn             # OR
 npm run serve    # start webpack dev server
 npm run build    # build for deployment
 npm run lint     # explicitly lint code
